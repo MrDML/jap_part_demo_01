@@ -27,6 +27,7 @@ public class Customer {
 
     //在主键字段使用@Id标注
     @Id
+    @Column(name = "cust_id")
     private long custId;
 
     // 配置属性和字段的映射关系
